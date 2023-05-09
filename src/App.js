@@ -1,8 +1,10 @@
+import AppRouter from "./router/AppRouter";
+
 
 function App() {
   return (
     <div className="App">
-        <h1>This is react app</h1>
+        <AppRouter />
     </div>
   );
 }
