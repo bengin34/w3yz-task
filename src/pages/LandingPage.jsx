@@ -3,6 +3,7 @@ import main from "../assets/main.jpg";
 
 import Carousel from "../components/Carousel";
 import Podcast from "../components/Podcast";
+import Ziyaret from "../components/Ziyaret";
 const LandingPage = () => {
   return (
     <>
@@ -39,8 +40,11 @@ const LandingPage = () => {
       {/* Carousel */}
       <Carousel />
 
-    {/* Podcast */}
-    <Podcast />
+      {/* Podcast */}
+      <Podcast />
+
+      {/* Ziyaret */}
+      <Ziyaret />
     </>
   );
 };
