@@ -3,7 +3,7 @@ import AboutUs from "../pages/AboutUs";
 import Contact from "../pages/Contact";
 import LandingPage from "../pages/LandingPage";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Footer from "../components/Footer"
 
 const AppRouter = () => {
   return (
@@ -15,6 +15,7 @@ const AppRouter = () => {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer/>
+      
     </>
   );
 };

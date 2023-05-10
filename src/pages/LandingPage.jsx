@@ -6,6 +6,9 @@ import main from "../assets/main.jpg";
 import Carousel from "../components/Carousel";
 import Podcast from "../components/Podcast";
 import Ziyaret from "../components/Ziyaret";
+
+
+
 const LandingPage = () => {
 
   const [images, setImages] = useState([])
@@ -67,6 +70,7 @@ const LandingPage = () => {
 
       {/* Ziyaret */}
       <Ziyaret />
+
     </>
   );
 };

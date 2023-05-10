@@ -3,7 +3,7 @@ import { socialIcons } from "../helper/data";
 
 const Footer = () => {
   return (
-    <div className="w-[1920px] h-[376px] bg-[#250400] absolute">
+    <div className="w-[1920px] h-[376px] bg-[#250400] absolute overflow-hidden ">
       <div className=" mt-[64px] grid grid-rows-2 text-white gap-3 mx-[160px] ">
         <div className="grid grid-cols-5">
           <div className="col-span-3 grid grid-cols-7 gap-[24px]">
