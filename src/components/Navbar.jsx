@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { NavbarLinks } from "../helper/data";
+
 
 const Navbar = () => {
   return (
@@ -33,42 +35,17 @@ const Navbar = () => {
         {/* Right elements */}
         <div className="relative flex items-center">
           {/* Cart Icon */}
-          <Link
-            className="mr-4 text-[#67645E]  hover:text-neutral-700 focus:text-neutral-700 "
+
+          {NavbarLinks.map((item,index) => (
+            <Link key={index}
+            className="mr-4 text-[#67645E] uppercase font-inter  hover:text-neutral-700 focus:text-neutral-700 "
             href="#"
           >
-            HAKKIMIZDA
+            {item.link}
           </Link>
-          <Link
-            className="mr-4 text-[#67645E] hover:text-neutral-700 focus:text-neutral-700 "
-            href="#"
-          >
-            SIKÇA SORULAN SORULAR
-          </Link>
-          <Link
-            className="mr-4 text-[#67645E] hover:text-neutral-700 focus:text-neutral-700 "
-            href="#"
-          >
-            GALERİ
-          </Link>
-          <Link
-            className="mr-4 text-[#67645E] hover:text-neutral-700 focus:text-neutral-700 "
-            href="#"
-          >
-            İLETİŞİM
-          </Link>
-          <Link
-            className="mr-4 text-[#67645E] hover:text-neutral-700 focus:text-neutral-700 "
-            href="#"
-          >
-            GİRİŞ YAP
-          </Link>
-          <Link
-            className="mr-4 text-[#67645E] hover:text-neutral-700 focus:text-neutral-700 "
-            href="#"
-          >
-            ALIŞVERİŞ(0)
-          </Link>
+          ))}
+          
+         
         </div>
       </div>
     </nav>

@@ -12,20 +12,19 @@ const LandingPage = () => {
 
   const BASE_URL = "https://w3yz.com/api/ch"
 
-  const getTutorials = async () => {
+  const getImages = async () => {
     try {
       const { data } = await axios(BASE_URL)
       const products = data.products
-      console.log(products)
       setImages(products)
     } catch (error) {
       console.log(error)
     }
   }
   
-  //? componentDidMount
+
   useEffect(() => {
-    getTutorials()
+    getImages()
   }, [])
 
   return (
@@ -39,17 +38,17 @@ const LandingPage = () => {
           alt=""
         />
         <div className="absolute w-[38%] bottom-[20%] p-4 md:p-8">
-          <h2 className="mx-2 text-white text-[60px]  ">
+          <h2 className="mx-2 text-white text-[60px] font-manrope  ">
             Çocuklar için Sanat Eğitimi
           </h2>
-          <h3 className="  mx-2 mt-8 text-white text-[30px] font-extralight capitalize">
+          <h3 className="  mx-2 mt-8 text-white text-[30px] font-manrope font-extralight capitalize">
             Ücretsiz aile etkinliklerimizde bir sanat dünyası oyunu oynayın,
             çocuklarınızla yaratın ve keşfedin
           </h3>
         </div>
       </div>
       {/* main text */}
-      <div className="mx-auto w-[1120px] h-[300px]  text-center text-[60px] capitalize font-extralight mt-[120px] mb-[120px]">
+      <div className="mx-auto w-[1120px] h-[300px] font-manrope  text-center text-[60px] capitalize font-extralight mt-[120px] mb-[120px]">
         <h2>Happy Galeri'ye Hoşgeldiniz</h2>
         <h2 className="mt-8 text-[30px] capitalize">
           bu muhteşem müzede keşfedilecek o kadar çok sanat eseri var ki! Bu
