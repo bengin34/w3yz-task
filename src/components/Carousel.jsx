@@ -54,7 +54,7 @@ const Carousel = () => {
         <div className="absolute  text-center bottom-[50%] left-52 w-[50%] ml-[120px] p-4 ">
         {slides[currentIndex].showText && ( 
             <>
-              <h1 className="text-white text-[60px] capitalize">
+              <h1 className="text-white text-[60px] capitalize ">
                 Yeni gelen sanat eserlerini inceleyin
               </h1>
               <h1 className="absolute -bottom-[110%] w-[50%] right-[90%] text-white font-extralight text-[36px] capitalize">

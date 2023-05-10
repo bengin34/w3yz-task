@@ -1,10 +1,33 @@
-import React from "react";
+import React, {  useEffect } from "react";
+import axios from 'axios'
+import { useState } from "react";
 import main from "../assets/main.jpg";
 
 import Carousel from "../components/Carousel";
 import Podcast from "../components/Podcast";
 import Ziyaret from "../components/Ziyaret";
 const LandingPage = () => {
+
+  const [images, setImages] = useState([])
+
+  const BASE_URL = "https://w3yz.com/api/ch"
+
+  const getTutorials = async () => {
+    try {
+      const { data } = await axios(BASE_URL)
+      const products = data.products
+      console.log(products)
+      setImages(products)
+    } catch (error) {
+      console.log(error)
+    }
+  }
+  
+  //? componentDidMount
+  useEffect(() => {
+    getTutorials()
+  }, [])
+
   return (
     <>
       {/* main img */}
@@ -41,7 +64,7 @@ const LandingPage = () => {
       <Carousel />
 
       {/* Podcast */}
-      <Podcast />
+      <Podcast images={images} />
 
       {/* Ziyaret */}
       <Ziyaret />

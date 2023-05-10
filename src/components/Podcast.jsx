@@ -1,7 +1,8 @@
 import React from "react";
 import Card from "./Card";
 
-const Podcast = () => {
+const Podcast = ({ images }) => {
+  console.log(images);
   return (
     <div className="w-[1860px] h-[1327px] rounded-[40px] mx-auto mt-[160px] bg-slate-400 grid grid-cols-2 gap-4 ">
       <div className="flex flex-col justify-center items-start ml-[110px] mr-[110px] ">
@@ -20,18 +21,21 @@ const Podcast = () => {
       </div>
 
       <div className=" mt-[120px] grid grid-rows-3 grid-cols-4 gap-3 ">
+        {images.map((item, index) => (
+          <div key={index}>
+            {" "}
+            <img src={item?.imageList?.url} alt={item.name} />
+          </div>
+        ))}
         <div class="col-start-1 col-end-1 ">01</div>
         <div class=" row-span-2 col-start-2 col-end-3 ">03</div>
-        <div class="row-span-1 col-start-3 col-end-5 ...">04</div>
-        <div class=" col-start-1 col-end-1 row-span-2 ...">02</div>
-        <div class="row-span-1 col-start-3 col-end-4 ...">04</div>
-        <div class="row-span-1 col-start-4 col-end-5 ...">04</div>
-        <div class="row-span-1 col-start-2 col-end-3 ...">05</div>
-        <div class="row-span-1 col-start-3 col-end-5 ...">04</div>
-        
+        <div class="row-span-1 col-start-3 col-end-5 ">04</div>
+        <div class=" col-start-1 col-end-1 row-span-2 ">02</div>
+        <div class="row-span-1 col-start-3 col-end-4 ">04</div>
+        <div class="row-span-1 col-start-4 col-end-5 ">04</div>
+        <div class="row-span-1 col-start-2 col-end-3 ">05</div>
+        <div class="row-span-1 col-start-3 col-end-5 ">04</div>
       </div>
-
-
 
       <div class="col-start-1 col-end-7 gap-4 flex items-center mx-auto pl-6  pr-10">
         <Card />

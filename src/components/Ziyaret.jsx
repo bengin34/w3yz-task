@@ -1,4 +1,5 @@
 import React from "react";
+import chevron from "../assets/chevron.png";
 
 import { visit } from "../helper/data";
 const Ziyaret = () => {
@@ -15,16 +16,23 @@ const Ziyaret = () => {
 
       {visit.map((item, index) => (
         <div
-          className={`col-start-${
-            index % 2 === 0 ? 3 : 4
-          } col-end-${
+          className={`col-start-${index % 2 === 0 ? 3 : 4} col-end-${
             index % 2 === 0 ? 3 : 4
           } flex justify-center items-center`}
           key={index}
         >
-        <div className="flex flex-row justify-between items-center"> <img className="mr-4" src={item.img} alt="" />
-          {item.showText}</div>
-         
+          <div className="flex  justify-between items-center w-full">
+            <div className="flex  " >
+              
+              <img  src={item.img} alt="" />
+            </div>
+
+            <div>{item.showText}</div>
+            <div>
+              {" "}
+              <img src={chevron} alt="" />
+            </div>
+          </div>
         </div>
       ))}
     </div>
