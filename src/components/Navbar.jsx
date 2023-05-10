@@ -39,7 +39,7 @@ const Navbar = () => {
           {NavbarLinks.map((item,index) => (
             <Link key={index}
             className="mr-4 text-[#67645E] uppercase font-inter  hover:text-neutral-700 focus:text-neutral-700 "
-            href="#"
+            to="#"
           >
             {item.link}
           </Link>
