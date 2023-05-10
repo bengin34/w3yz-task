@@ -33,8 +33,8 @@ const Carousel = () => {
         <div className="absolute  text-center bottom-[50%] left-52 w-[50%] ml-[120px] p-4 ">
         {slides[currentIndex].showText && ( 
             <>
-              <h1 className="text-white text-[60px] capitalize font-manrope ">
-                Yeni gelen sanat eserlerini inceleyin
+              <h1 className="text-white text-[60px] capitalize font-manrope" >
+                Yeni <span style={{ textShadow: '0px 0px 20px rgba(255, 255, 255, 0.5)', borderRadius: '90%' }}>gelen sanat eserlerini</span>  inceleyin
               </h1>
               <h1 className="absolute -bottom-[110%] w-[50%] right-[90%] text-white font-extralight text-[36px] font-manrope capitalize">
                 Özel Galerimiz
