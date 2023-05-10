@@ -3,8 +3,14 @@ import Card from "./Card";
 
 const Podcast = ({ images }) => {
   console.log(images);
+  console.log(images[0]?.imagelist[0].url);
   return (
-    <div className="w-[1860px] h-[1327px] rounded-[40px] mx-auto mt-[160px] bg-slate-400 grid grid-cols-2 gap-4 ">
+    <div
+      style={{
+        background: "linear-gradient(295deg, #D2D2D2 0%, #EFEFEF 94%)",
+      }}
+      className="w-[1860px] h-[1327px] rounded-[40px] mx-auto mt-[160px] grid grid-cols-2 gap-4"
+    >
       <div className="flex flex-col justify-center items-start ml-[110px] mr-[110px] ">
         <h1 className="text-[60px] font-extralight">Podcast</h1>
         <h3 className="capitalize font-extralight text-[30px] mb-[30px]">
@@ -20,25 +26,35 @@ const Podcast = ({ images }) => {
         <h6 className="uppercase mt-[120px]">spotify</h6>
       </div>
 
-      <div className=" mt-[120px] grid grid-rows-3 grid-cols-4 gap-3 ">
-        {images.map((item, index) => (
-          <div key={index}>
-            {" "}
-            <img src={item?.imageList?.url} alt={item.name} />
-          </div>
-        ))}
-        <div class="col-start-1 col-end-1 ">01</div>
-        <div class=" row-span-2 col-start-2 col-end-3 ">03</div>
-        <div class="row-span-1 col-start-3 col-end-5 ">04</div>
-        <div class=" col-start-1 col-end-1 row-span-2 ">02</div>
-        <div class="row-span-1 col-start-3 col-end-4 ">04</div>
-        <div class="row-span-1 col-start-4 col-end-5 ">04</div>
-        <div class="row-span-1 col-start-2 col-end-3 ">05</div>
-        <div class="row-span-1 col-start-3 col-end-5 ">04</div>
+      <div className=" mt-[120px] grid grid-rows-3 grid-cols-4  m-auto  ">
+        <div class="col-start-1 col-end-1 ">
+          <img src={images[6]?.imagelist?.[0].url} alt={images[6]?.name} />
+        </div>
+        <div class=" row-span-2 col-start-2 col-end-3  ">
+          <img src={images[7]?.imagelist?.[0].url} alt={images[7]?.name} />
+        </div>
+        <div class="row-span-1 col-start-3 col-end-5 ">
+          <img src={images[9]?.imagelist?.[0].url} alt={images[9]?.name} />
+        </div>
+        <div class=" col-start-1 col-end-1 row-span-2 mt-[14px] ">
+          <img src={images[3]?.imagelist?.[0].url} alt={images[3]?.name} />
+        </div>
+        <div class="row-span-1 col-start-3 col-end-4 ">
+          <img src={images[8]?.imagelist?.[0].url} alt={images[8]?.name} />
+        </div>
+        <div class="row-span-1 col-start-4 col-end-5 mx-[4px]">
+          <img src={images[8]?.imagelist?.[0].url} alt={images[8]?.name} />
+        </div>
+        <div class="row-span-1 col-start-2 col-end-3 mt-2 ">
+          <img src={images[6]?.imagelist?.[0].url} alt={images[6]?.name} />
+        </div>
+        <div class="row-span-1 col-start-3 col-end-5 mt-2">
+          <img src={images[4]?.imagelist?.[0].url} alt={images[4]?.name} />
+        </div>
       </div>
 
       <div class="col-start-1 col-end-7 gap-4 flex items-center mx-auto pl-6  pr-10">
-        <Card />
+        <Card images={images} />
         <Card />
         <Card />
         <Card />
