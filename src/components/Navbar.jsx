@@ -11,9 +11,7 @@ const Navbar = () => {
       data-te-navbar-ref
     >
       <div className="flex w-full flex-wrap items-center justify-between px-3">
-        {/* Hamburger button for mobile view */}
 
-        {/* Collapsible navigation container */}
         <div className="visible flex-grow basis-[100%] items-center lg:!flex lg:basis-auto">
           {/* Logo and Name */}
           <div className="flex">
@@ -39,7 +37,7 @@ const Navbar = () => {
           {NavbarLinks.map((item,index) => (
             <Link key={index}
             className="mr-4 text-[#67645E] uppercase font-inter  hover:text-neutral-700 focus:text-neutral-700 "
-            to="#"
+            to=""
           >
             {item.link}
           </Link>

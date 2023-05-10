@@ -54,7 +54,7 @@ const Podcast = ({ images }) => {
 
       <div className="col-start-1 col-end-7 gap-7 flex items-center mx-auto pl-6  pr-10">
         {images?.slice(0, 3).map((item, index) => (
-          <Card item={item} key={item} />
+          <Card item={item} key={index} />
         ))}
         {/* api de Figma görsellerinden bir resin eksik olduğu için bu eklemeyi yaptım  */}
         <Card item={images[0]} />
