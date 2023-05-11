@@ -2,9 +2,13 @@
 # HAPPY GALERİ
 
 ## Motivation
-This task is assigned to me yesterday from a company w3yz.
-<br>
-It is a single landing page, without responsiveness, all project copied from a Figma design.
+I was assigned a task yesterday by the company w3yz.
+<br> 
+The task is to create a single landing page, without responsiveness, that is copied from a Figma design.<br> 
+The page will also get images from an API and display them on the page.<br> 
+The images will be styled using Tailwind CSS.
+
+
 
 ## Screenshots
 <img width="1390" alt="1" src="https://github.com/bengin34/w3yz-task/assets/118957608/15ad9457-f088-4975-bcab-bf4b6edbea55">
