@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+** Update: After completing and submitting the task, the visual appearance of the project was compromised due to changes in the API.
+## Project title
+# HAPPY GALERİ
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Motivation
+I was assigned a task yesterday by the company w3yz.
+<br> 
+The task is to create a single landing page, without responsiveness, that is copied from a Figma design.<br> 
+The page will also get images from an API and display them on the page.<br> 
+The images will be styled using Tailwind CSS.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `yarn start`
+## Screenshots
+![happygallery](https://github.com/bengin34/bengin34/assets/118957608/03d62da6-c6cf-4af5-bd89-fa5ca4d6342a)
+<br> 
+<br> 
+<img width="1390" alt="1" src="https://github.com/bengin34/w3yz-task/assets/118957608/15ad9457-f088-4975-bcab-bf4b6edbea55">
+<img width="1423" alt="2" src="https://github.com/bengin34/w3yz-task/assets/118957608/109587ef-8410-48b4-bc66-3a2bd63b05ea">
+<img width="1264" alt="3" src="https://github.com/bengin34/w3yz-task/assets/118957608/0319b31c-562d-4070-9646-5a99b86637fe">
+<img width="1259" alt="4" src="https://github.com/bengin34/w3yz-task/assets/118957608/e86d52a8-d285-4009-bc97-96ce19256675">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech/framework used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<b>Built with</b> <br>
+<a href="#" target="_blank"> <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/react_original_wordmark_logo_icon_146375.png" alt="react" width="50"/> </a>  <a href="#" target="_blank"> <img src="https://user-images.githubusercontent.com/25181517/202896760-337261ed-ee92-4979-84c4-d4b829c7355d.png" alt="tailwind" height="50"/> </a> <a href="#" target="_blank"> 
 
-### `yarn test`
+## API Reference
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+https://w3yz.com/api/ch
 
-### `yarn build`
+## How to use?
+Just scroll the page.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Code style
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+ © [bengin34]
+ 
