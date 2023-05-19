@@ -1,3 +1,4 @@
+** Update: After completing and submitting the task, the visual appearance of the project was compromised due to changes in the API.
 ## Project title
 # HAPPY GALERİ
 
