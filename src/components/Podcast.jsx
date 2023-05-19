@@ -27,37 +27,37 @@ const Podcast = ({ images }) => {
 
       <div className=" mt-[120px] grid grid-rows-3 grid-cols-4  m-auto  ">
         <div className="col-start-1 col-end-1 ">
-          <img src={images[6]?.imagelist?.[0].url} alt={images[6]?.name} />
+          <img src={images[7]?.imagelist?.[0].url} alt={images[6]?.name} />
         </div>
         <div className=" row-span-2 col-start-2 col-end-3  ">
-          <img src={images[7]?.imagelist?.[0].url} alt={images[7]?.name} />
+          <img src={images[8]?.imagelist?.[0].url} alt={images[7]?.name} />
         </div>
         <div className="row-span-1 col-start-3 col-end-5 ">
-          <img src={images[9]?.imagelist?.[0].url} alt={images[9]?.name} />
+          <img src={images[10]?.imagelist?.[0].url} alt={images[9]?.name} />
         </div>
         <div className=" col-start-1 col-end-1 row-span-2 mt-[14px] ">
-          <img src={images[3]?.imagelist?.[0].url} alt={images[3]?.name} />
+          <img src={images[4]?.imagelist?.[0].url} alt={images[3]?.name} />
         </div>
         <div className="row-span-1 col-start-3 col-end-4 ">
-          <img src={images[8]?.imagelist?.[0].url} alt={images[8]?.name} />
+          <img src={images[9]?.imagelist?.[0].url} alt={images[8]?.name} />
         </div>
         <div className="row-span-1 col-start-4 col-end-5 mx-[4px]">
-          <img src={images[8]?.imagelist?.[0].url} alt={images[8]?.name} />
+          <img src={images[9]?.imagelist?.[0].url} alt={images[8]?.name} />
         </div>
         <div className="row-span-1 col-start-2 col-end-3 mt-2 ">
-          <img src={images[6]?.imagelist?.[0].url} alt={images[6]?.name} />
+          <img src={images[7]?.imagelist?.[0].url} alt={images[6]?.name} />
         </div>
         <div className="row-span-1 col-start-3 col-end-5 mt-2">
-          <img src={images[4]?.imagelist?.[0].url} alt={images[4]?.name} />
+          <img src={images[5]?.imagelist?.[0].url} alt={images[4]?.name} />
         </div>
       </div>
 
       <div className="col-start-1 col-end-7 gap-7 flex items-center mx-auto pl-6  pr-10">
-        {images?.slice(0, 3).map((item, index) => (
+        {images?.slice(1, 4).map((item, index) => (
           <Card item={item} key={index} />
         ))}
         {/* api de Figma görsellerinden bir resin eksik olduğu için bu eklemeyi yaptım  */}
-        <Card item={images[0]} />
+        <Card item={images[1]} />
       </div>
     </div>
   );

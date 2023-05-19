@@ -5,9 +5,9 @@ const Card = ({item}) => {
 
   return (
     <div className='w-[386px] h-[486px] '>
-      <img className='object-fit' src={item?.imagelist[0].url} alt={item?.name} />
+      <img className='object-fit' src={item?.imagelist[0]?.url} alt={item?.name} />
       <div className='relative text-white font-avenir bottom-[95%] left-5 text-lg' >
-        <h3>EUROPEAN</h3>
+        <h3>{item?.name}</h3>
       </div>
       <div className='relative bottom-[25%] w-[340px] mx-auto text-sm' >
       {/* api de bulunan metinler alakasız olduğu için buraya bastırmadım, {item?.body } yapınca resimlere ayakkabı vb text yazdırmayı istemedim */}
