@@ -12,6 +12,9 @@ The images will be styled using Tailwind CSS.
 
 
 ## Screenshots
+![happygallery](https://github.com/bengin34/bengin34/assets/118957608/03d62da6-c6cf-4af5-bd89-fa5ca4d6342a)
+<br> 
+<br> 
 <img width="1390" alt="1" src="https://github.com/bengin34/w3yz-task/assets/118957608/15ad9457-f088-4975-bcab-bf4b6edbea55">
 <img width="1423" alt="2" src="https://github.com/bengin34/w3yz-task/assets/118957608/109587ef-8410-48b4-bc66-3a2bd63b05ea">
 <img width="1264" alt="3" src="https://github.com/bengin34/w3yz-task/assets/118957608/0319b31c-562d-4070-9646-5a99b86637fe">
