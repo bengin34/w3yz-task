@@ -5,7 +5,7 @@ const Card = ({item}) => {
 
   return (
     <div className='w-[386px] h-[486px] '>
-      <img className='object-fit' src={item?.imagelist[0].url} alt={item?.name} />
+      <img className='object-fit' src={item?.imagelist[0]?.url} alt={item?.name} />
       <div className='relative text-white font-avenir bottom-[95%] left-5 text-lg' >
         <h3>EUROPEAN</h3>
       </div>
