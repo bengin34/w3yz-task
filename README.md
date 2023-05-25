@@ -28,6 +28,9 @@ The images will be styled using Tailwind CSS.
 ## API Reference
 
 https://w3yz.com/api/ch
+ 
+## Figma page:
+https://www.figma.com/file/fT3py9D7atOnktikZqubKf/Untitled?type=design&node-id=1-2&t=V5w6Hh2uEmCpvVbD-0
 
 ## How to use?
 Just scroll the page.
